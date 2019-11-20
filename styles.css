@@ -75,7 +75,7 @@
 
 .image-blue {
   background-image: url(images/image-blue.png);
-  height: 403px;
+  height: 483px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,19 +98,24 @@
 
 .second-text-background {
   background-color: white;
-  height: 719px;
+  height: 604px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.second-text-wrapper {
+  margin-bottom: 0;
+  margin-top: 48px;
+
+}
 
 .second-text-heading {
   color: #007764;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 64px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .second-text-near-the-image-and-image {
@@ -121,7 +126,8 @@
   margin: auto;
   font-family: 'Roboto', sans-serif;
   font-size: 32px;
-  margin-top: 30px;
+  margin-top: 40px;
+  margin-bottom: 92px;
 }
 
 .second-text-image {
@@ -132,15 +138,20 @@
 .second-text-near-the-image {
   font-family: 'Roboto', sans-serif;
   font-size: 32px;
-  margin-left: 40px;
+  margin-left: 48px;
 }
 
+.team-wrapper {
+  background-color: #EEEEEE;
+}
 
 .team-text {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 64px;
   color: #007764;
+  padding-top: 58px;
+  margin-bottom: 32px;
 }
 
 .team-portraits-wrapper {
@@ -148,6 +159,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 84px;
 }
 
 .team-portrait {
@@ -173,9 +185,37 @@
   color: #007764;
   font-weight: bold;
 }
+
 .portrait-text p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-style: italic;
   color: black;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 176px;
+  background-color: #333333;
+}
+
+.text-footer {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: normal;
+}
+
+.pre-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 540px;
+  height: 64px;
 }
